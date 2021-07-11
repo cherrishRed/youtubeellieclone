@@ -1,0 +1,137 @@
+:root{
+  --black-color:#212121;
+  --white-color:#ffffff;
+  --accent-color:#cd0c22;
+  --blue-color:#0080ff;
+  }
+
+
+body {
+  margin: 0px;
+  pad: 0px 8px;
+}
+/* 메뉴 */
+.nav_bar {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+  }
+.tt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  color: var(--accent-color);
+  size: 16px;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  color: var(--white-color);
+  background-color: var(--text-color);
+  font-size: 20px;
+  padding: 6px;
+}
+.search,
+.menu {
+  color: var(--white-color);
+  padding: 6px;
+
+}
+/* 비디오 제목 */
+.info {
+  padding: 12px;
+}
+.hashtag {
+  color:var(--blue-color);
+}
+.videoTitle {
+  display: flex;
+}
+.videott {
+  font-size: 20px;
+}
+.short {
+  padding: 8px;
+}
+.watchingCount {
+  color: gray;
+  font-size: 14px;
+}
+/* 비디오 반응 */
+.reactButton {
+  display: flex;
+  justify-content: space-around;
+}
+.like,
+.bad,
+.share,
+.save,
+.report {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.likelogo,
+.badlogo,
+.sharelogo,
+.savelogo,
+.reportlogo {
+  padding: 8px;
+  color: gray;
+}
+
+
+
+/* 유투버 */
+.youtuber {
+  padding: 6px ;
+  margin: 0px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  line-width: 1px;
+}
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+}
+.youtuberName {
+  padding: 0px 8px;
+  font-size: 18px
+}
+.youtuber_v {
+  display: flex;
+  align-items: center;
+}
+.watchingTime {
+  font-size: 14px;
+  color: gray;
+  padding: 0px 8px;
+
+}
+.sub {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+/* 관련 동영상 */
+.relatedvideo {
+  padding: 6px 12px;
+}
+.relVideo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.relVeAbout {
+  padding: 0px 12px;
+}
